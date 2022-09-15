@@ -1,0 +1,23 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4be650a9a31aba34b95e5ee3eb51e989, type: 3}
+  m_Name: Enemy_Ship
+  m_EditorClassIdentifier: 
+  _sprite: {fileID: -1513770721519998794, guid: cfd3e1c1d51119843b9177df5a4c52d4, type: 3}
+  _speed: 1.5
+  _enemyType: 1
+  _enemySize: 0
+  _hasChildAsteroids: 0
+  _childAsteroids: []
+  _collisionRadius: 0.4
+  _shootCooldown: 3
+  _shootSpeed: 7

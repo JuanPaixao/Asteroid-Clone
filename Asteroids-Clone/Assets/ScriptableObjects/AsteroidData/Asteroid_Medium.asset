@@ -1,0 +1,23 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4be650a9a31aba34b95e5ee3eb51e989, type: 3}
+  m_Name: Asteroid_Medium
+  m_EditorClassIdentifier: 
+  _sprite: {fileID: 21300000, guid: 64da272a79ea41f47951f29d60ccb4a2, type: 2}
+  _speed: 1
+  _enemyType: 0
+  _enemySize: 0
+  _hasChildAsteroids: 1
+  _childAsteroids:
+  - {fileID: 11400000, guid: 83d59a43fd263d04fa6fa5f605317497, type: 2}
+  - {fileID: 11400000, guid: 814d4e2e79cd900438168a86ded2415a, type: 2}
+  _collisionRadius: 0.2
